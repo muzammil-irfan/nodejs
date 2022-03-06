@@ -1,0 +1,20 @@
+Create a nodejs project.
+Create Database Schema for Users. 
+Create Database Schema for Products
+Create Database Schema for Orders. 
+Add Database Validations for all Schemas and every Field. 
+The database should not allow to enter any inappropriate data against any key in database.
+Create relations between Users and Orders. 
+Create relations between Products and Orders.
+Create Login & Signup JSON APIs for Users (sessions based). 
+Create JSON APIs for adding, viewing, editing and deleting Products. 
+ • Create JSON APIs for adding, viewing and editing Orders.
+ • All 3 APIs for orders should check authentication status of a User.
+ • Orders Orders APIs should only work for its own User.
+ • Orders Only Products & Amount Fields in Orders edit API should be editable.
+ • Adding, editing & deleting Products should require authentication and authorization of User (only user with admin rights should be able to access these APIs).
+Viewing products should be open API and should not require any authentication or authorization.
+Create a EJS based 404 response.
+Create EJS response of products list.
+Create a static folder for assets (images & fonts).
+Create a static index.html file with Welcome text on /app/welcome route.
